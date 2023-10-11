@@ -16,8 +16,10 @@ def my_cook_book():
                           }
                       )
                 meal[name] = ingredients_quantity
-        return meal
+    return meal
 
+
+print(my_cook_book(),"\n")
 cook_book = my_cook_book()
 
 def get_shop_list_by_dishes(dishes, person_count):
